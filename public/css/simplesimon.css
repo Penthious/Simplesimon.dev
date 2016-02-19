@@ -1,0 +1,26 @@
+.simonButtons{
+    width:100px;
+    height:100px;
+    border: solid 1px black;
+    opacity: .25;
+}
+
+p[data-id='1']{
+    background-color: red;
+}
+
+#blueButton{
+    background-color: blue;
+}
+
+#greenButton{
+    background-color: green;
+}
+
+#orangeButton{
+    background-color: orange;
+}
+
+#startButton{
+    background-color: grey;
+}
