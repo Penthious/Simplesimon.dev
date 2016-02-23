@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="/css/simplesimon.css">
+        <link rel="icon"type="image/png" href="/imgs/favicon.ico">
         <meta charset="utf-8">
         <title>Simple Simon</title>
     </head>
@@ -10,19 +11,25 @@
             <h1>Simple Simon</h1>
         </div>
 
-        <div class="wrapper">
+        <div id="wrapper">
             <div id="redButton" class="flexStyle simonButtons buttonStyle" data-id="1"></div>
             <div id="blueButton" class="flexStyle simonButtons buttonStyle" data-id="2"></div>
             <div id="greenButton" class="flexStyle simonButtons buttonStyle" data-id="3"></div>
             <div id="orangeButton" class="flexStyle simonButtons buttonStyle" data-id="4"></div>
+        </div>
 
+        <div id="centerCircle">
+            <p  class="buttonStyle" data-id="5"></p>
+            <p id="simonCount">Score: 0</p>
+            <p id="highScore"> High Score: 0</p>
+            <button id="startButton" type="button">Start</button>
         </div>
-        <div id="startButton">
-            <p id="startButton" class="buttonStyle" data-id="5"></p>
-        </div>
+
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        <script src="/js/jqueryRotate.js"></script>
         <script src="/js/simplesimon.js"></script>
     </body>
 </html>

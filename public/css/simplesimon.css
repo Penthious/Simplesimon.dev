@@ -2,25 +2,30 @@ body{
     background-color: black;
 }
 
+
 #simonHeader{
     color: red;
     text-align: center;
     font-size: 1.7rem;
 }
-.wrapper{
+
+
+#wrapper{
     justify-content: center;
     display: flex;
     width: 500px;
     height: 400px;
-
     flex-wrap: wrap;
     margin: auto;
+    
 }
+
 
 .flexStyle{
     width:200px;
-
 }
+
+
 #redButton{
     background-color: red;
     opacity: .25;
@@ -28,6 +33,8 @@ body{
     order: 0;
     border: 10px solid black;
 }
+
+
 #blueButton{
     background-color: blue;
     opacity: .25;
@@ -35,6 +42,8 @@ body{
     order: 1;
     border: 10px solid black;
 }
+
+
 #greenButton{
     background-color: green;
     opacity: .25;
@@ -42,6 +51,8 @@ body{
     order: 2;
     border: 10px solid black;
 }
+
+
 #orangeButton{
     background-color: orange;
     opacity: .25;
@@ -49,7 +60,9 @@ body{
     border-bottom-right-radius: 200px;
     order:3;
 }
-p[data-id='5']{
+
+
+#centerCircle{
     background-color: grey;
     border-radius: 50%;
     width: 200px;
@@ -60,4 +73,6 @@ p[data-id='5']{
     margin: auto;
     bottom: 320px;
     border: 20px solid black;
+    color: white;
+    text-align: center;
 }
