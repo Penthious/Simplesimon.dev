@@ -118,8 +118,7 @@ function resetSimon(){
     $("#startButton").removeAttr('disabled');
     $("#simonCount").html('Score: ' + roundCount);
     $(".simonButtons").off("click");
-    $( "#wrapper" ).effect( "shake", {"times":"4"}, 1000);
-    $( "#centerCircle" ).effect( "shake", {"times":"4"}, 1000);
+    $("#wrapper, #centerCircle").effect( "shake", {"times":"4"}, 1000);
 }
 
 
@@ -139,7 +138,6 @@ function getUserInput() {
         if (simonArray[userIndex] != color) {
             loseSound.play();
             resetSimon();
-            clearInterval(myInterval);
             clearInterval(myInterval);
         //This sets all the on click animations
         } else {
